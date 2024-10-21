@@ -1,4 +1,4 @@
-package by.teachmeskills.yadevich.lesson5.task2;
+package by.teachmeskills.yadevich.lesson7.task2;
 
 public abstract class Figure {
     public int width;

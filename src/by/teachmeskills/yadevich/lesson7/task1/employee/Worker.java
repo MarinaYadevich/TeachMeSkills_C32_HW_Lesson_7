@@ -1,6 +1,6 @@
-package by.teachmeskills.yadevich.lesson5.task1.employee;
+package by.teachmeskills.yadevich.lesson7.task1.employee;
 
-import by.teachmeskills.yadevich.lesson5.task1.action_employee.EmployeeAction;
+import by.teachmeskills.yadevich.lesson7.task1.action_employee.EmployeeAction;
 
 public class Worker implements EmployeeAction {
     public String position;

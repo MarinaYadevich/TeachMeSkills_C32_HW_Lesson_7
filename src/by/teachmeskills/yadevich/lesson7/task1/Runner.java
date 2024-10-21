@@ -1,8 +1,8 @@
-package by.teachmeskills.yadevich.lesson5.task1;
+package by.teachmeskills.yadevich.lesson7.task1;
 
-import by.teachmeskills.yadevich.lesson5.task1.employee.Accountant;
-import by.teachmeskills.yadevich.lesson5.task1.employee.Director;
-import by.teachmeskills.yadevich.lesson5.task1.employee.Worker;
+import by.teachmeskills.yadevich.lesson7.task1.employee.Accountant;
+import by.teachmeskills.yadevich.lesson7.task1.employee.Director;
+import by.teachmeskills.yadevich.lesson7.task1.employee.Worker;
 
 import java.util.Scanner;
 
