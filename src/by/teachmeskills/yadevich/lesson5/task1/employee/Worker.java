@@ -1,8 +1,8 @@
 package by.teachmeskills.yadevich.lesson5.task1.employee;
 
-import by.teachmeskills.yadevich.lesson5.task1.action_job.Employee;
+import by.teachmeskills.yadevich.lesson5.task1.action_employee.EmployeeAction;
 
-public class Worker implements Employee {
+public class Worker implements EmployeeAction {
     public String position;
 
     public Worker(String position) {
