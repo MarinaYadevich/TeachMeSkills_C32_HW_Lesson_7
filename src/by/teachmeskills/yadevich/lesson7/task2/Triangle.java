@@ -1,21 +1,31 @@
 package by.teachmeskills.yadevich.lesson7.task2;
 
 public class Triangle extends Figure {
+    double a;
+    double b;
+    double c;
 
-    public int length1;
-    public int length2;
-    public int length3;
-
-    public Triangle(int length1, int length2, int length3) {
-        this.length1 = length1;
-        this.length2 = length2;
-        this.length3 = length3;
+    public Triangle(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
+    @Override
+    double calculateArea() {
+        double area = (a + b + c) / 2.0;
+        return area;
+    }
 
     @Override
-    public void getAreaTriangle(int width, int height) {
-        super.getAreaTriangle(width, height);
+    double calculatePerimeter() {
+        double perimeter = a + b + c;
+        return perimeter;
+    }
+
+    @Override
+    void getInformation() {
+        System.out.println("Triangle: a - " + a + ", b - " + b + ", c - " + c);
     }
 }
 
